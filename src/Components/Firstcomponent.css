@@ -1,0 +1,144 @@
+.students-wrapper {
+  padding-left: 1rem;
+  
+
+  width: 1153px;
+  height: 198px;
+  top: 68px;
+  left: 275px;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border: none;
+ 
+
+}
+
+.combined {
+  width: 861px;
+  height: 72px;
+  gap: 5px;
+
+}
+
+.students-header-section {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  width: 1153px;
+  height: 198px;
+  /* border: 1px solid #ddd; */
+  border-radius: 10px;
+  background-color: #fff;
+  background-image: url('../images/nav.png');
+  background-repeat: no-repeat;  
+  background-position:  right;
+  background-size: auto;
+  
+}
+
+.students-header {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+
+}
+
+.students-subtext {
+  color: #666;
+  margin-top: 0rem;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: -0.6%;
+
+}
+
+.search {
+  position: relative;
+  width: 321px;
+  margin-left: 2;
+}
+
+.searchbar {
+  width: 145px;
+  height: 17px;
+  font-weight: 900px;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: -0.6%;
+  margin-left: 4px;
+  margin-bottom: 10px;
+  margin-top: -39px;
+  margin-left:19px;
+  font-family: 'Inter', sans-serif;
+}
+
+.searchouter {
+  width: 321px;
+  height: 39px;
+  gap: 10px;
+  border-radius: 31px;
+  border-width: 1px;
+  padding-top: 11px;
+  padding-right: 136px;
+  padding-bottom: 11px;
+  padding-left: 13px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(220, 220, 220, 1)
+}
+
+.search {
+  width: 12.75px;
+  height: 12.75px;
+  top: 2.13px;
+  left: 2.13px;
+  border-width: 1.42px;
+  border: 1.42px solid rgba(10, 10, 10, 1);
+}
+@media (max-width: 768px) {
+  .students-wrapper,
+  .students-header-section {
+    padding: 0.5rem;
+    border-radius: 0;
+  }
+
+  .students-header {
+    font-size: 1.5rem;
+  }
+
+  .students-subtext {
+    font-size: 0.9rem;
+  }
+
+  .searchouter {
+    max-width: 100%;
+    flex-direction: row;
+    padding: 8px;
+    margin-top: 4px;
+  }
+
+  .searchbar {
+    font-size: 13px;
+    align-items: center;
+    margin-top: 4px;
+  }
+}
+
+@media (max-width: 480px) {
+  .students-header {
+    font-size: 1.25rem;
+  }
+
+  .searchouter {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  .searchbar {
+    width: 100%;
+  }
+}
